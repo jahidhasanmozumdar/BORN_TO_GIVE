@@ -13,21 +13,18 @@ body{
     background-image: url(images/joshua-watson-lKYFy_prTFU-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-
 }
 .overlay{
    height: 100vh;
-   width: 100vw; 
    display: flex;
    flex-direction: column;
    align-items: center;
    justify-content: center;
    text-align: center;
-   background-color: rgba(0,0, 0, 0.5)
-
+   background-color: rgba(0,0, 0, 0.8)
 }
 .overlay h1{
-    color: #fff;
+    color: rgba(255, 255, 255, 0.87);
     font-size:4rem;
     font-weight: 700;
 }
@@ -36,6 +33,7 @@ body{
     font-size: 18px;
 }
 .btn_desgin{
+    width: 250px;
     color: #fff;
     background-color: #FF5959;
     text-decoration: none;
@@ -48,11 +46,12 @@ body{
     align-items:center ;
     text-align: center;
 }
-.donate_sec_head h1{
+.heading_content{
     font-size: 2.5rem;
 }
-.donate_sec_head p{
-    color: black;
+.paragraph_content{
+    font-size: 18px;
+    color:#707070;
 }
 .amount_section{
     display: flex;
@@ -99,8 +98,145 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: none;
 }
 button{
-    b
+    border: none;
+}
+.donate_plan_center{
+    display: flex;
+    flex-direction: column;
+    margin-top: 130px;
+    justify-content: center;
+    align-items: center;
+}
+.card_area{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.donate_plan_card{
+    height: 352px;
+    width: 360px;
+    padding: 20px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 15px 50px 30px 5px;
+}
+.card_color_1{
+    background-color:#4F9DA6 ;
+}
+.card_color_2{
+    background-color: #c55353c2;
+}
+.card_color_3{
+    background-color: #ccbf49ad;
+}
+.blog_container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+
+}
+.blog_content{
+    display: flex;
+    flex-direction: column;
+    height: 386px;
+    width: 493px;
+    justify-content: center;
+    align-items: left;
+    
+    
+}
+.blog_img{
+    height:477px;
+    width: 456px;
+    border-radius: 20px;
+}
+.news_container{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    margin-top:50px ;
+}
+.news_container hr{
+    height: 3px;
+    width: 10%;
+    background-color: orangered;
+    border: none;
+}
+.news_card{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-evenly;
+}
+.News_box{
+    width: 350px;
+    margin: auto;
+}
+
+.news_img{
+    height: 200px;
+    width: 300px;
+    border-radius: 8px;
+    margin: auto;
+    display: flex;
+    margin-top:10px ;
+}
+.news_content{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+.read-more-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.arrow{
+    width: 45px;
+}
+.See_more_btn{
+   text-decoration: none;
+   border: 1px solid aqua;
+   padding: 0px 5px;
+}
+.update_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+.update_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    margin-top:50px ;
+}
+.Update_background{
+    height: 20vh;
+    width: 40vw;
+    background-color: #FFF4D6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.update_input{
+    width: 257px;
+    height: 48px;
+    background-color: #D9D9D9;
+    border-radius:5px 0px 0px 5px;
+    border: none;
+    font-size: 20px;
+}
+
+#subscrib_btn{
+    width: 160px;
+    height: 58px;
+    background-color: #FF5959;
+    border-radius:7px 5px 5px 7px;
 }
